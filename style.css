@@ -89,3 +89,24 @@ button {
   width: 40%;
   margin: 0 20px ;
 }
+
+.footer {
+  display: flex;
+  background-color: #333333;
+  color: #fff;
+  /* evenly:均等（要素の外側にもスペース用意される）、between:間 */
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.footer-title {
+  align-self: center;
+}
+
+li {
+  list-style: none;
+}
+
+.footer h1, .footer p{
+  text-align: start;
+}
