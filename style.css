@@ -1,3 +1,45 @@
 .header {
   width: 100%
 }
+
+main {
+  width: 100%;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.magazine-text {
+  padding: 5% 0;
+}
+
+.magazine-img {
+  width: 100%;
+  display: flex;
+  /* 水平方向に子要素を中央寄せ */
+  justify-content: center;
+  /* 垂直方向に子要素を中央寄せ */
+  align-items: center;
+}
+
+.article {
+  padding: 3%;
+  justify-items: center;
+  display: grid;
+  position: relative;
+}
+
+.context {
+  border: 1px solid #00000080;
+  width: 290px;
+  background-color: #00000080;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  transform: translate(0%,200%);
+}
+
+.title {
+  font-weight: 800;
+}
