@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .header {
   width: 100%
 }
@@ -11,7 +15,7 @@ h1, p {
 }
 
 .magazine-text {
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 .magazine-img {
@@ -27,6 +31,7 @@ h1, p {
   padding: 3%;
   justify-items: center;
   display: grid;
+  /* 要素自身の元の位置が起点となる(相対値：要素の元の位置が基準)*/
   position: relative;
 }
 
@@ -36,10 +41,31 @@ h1, p {
   background-color: #00000080;
   color: #fff;
   text-align: center;
+  /* 親の要素を基準として絶対値を取る(絶対値：全体（ページ左上端）が基準)*/
   position: absolute;
-  transform: translate(0%,200%);
+  transform: translate(0%,180%);
 }
 
 .title {
   font-weight: 800;
+  font-size: 20px;
+}
+
+button {
+  align-content: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid;
+  margin: 1rem 0 2rem 0;
+}
+
+.pc {
+  position: relative;
+}
+
+.pc-text {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  transform: translate(70%,-200%);
 }
