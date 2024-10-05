@@ -69,3 +69,23 @@ button {
   position: absolute;
   transform: translate(70%,-200%);
 }
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  width: 100%;
+}
+
+.catalog-text {
+  width: 40%;
+  margin: 0 20px ;
+  display: grid;
+  justify-items: center;
+}
+
+.catalog-img {
+  width: 40%;
+  margin: 0 20px ;
+}
